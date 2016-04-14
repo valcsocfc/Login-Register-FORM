@@ -1,0 +1,130 @@
+<html>
+<head>
+<style rel="stylesheet">
+
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+body {
+	background:url(http://eskipaper.com/images/cool-wallpapers-hd-13.jpg)fixed no-repeat center;
+	background-size:cover;
+	font-family: 'helvetica','Source Sans Pro', sans-serif;
+	color: white;
+	font-weight: 300;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+#wrapper {
+	padding:30px;
+	background:rgba(0,0,0,0.05);
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    width: 285px;
+    transform: translate(-50%, -50%);
+}
+
+
+h1{
+	font-size: 32px;
+	text-align:center;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-put;
+	font-weight: 200;
+}
+
+input,
+label {
+    height: 49px;
+    box-shadow: 0 1px 1px #292a32;
+}
+
+input:not([type='submit']) {
+    font-weight: 600;
+    box-sizing: border-box;
+    width: 235px;
+    height: 49px;
+    padding-right: 4px;
+    padding-left: 18px;
+    color: #e7e7e8;
+    border-style: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    outline-style: none;
+	background:transparent;
+}
+label {
+    display: inline-block;
+    width: 46px;
+    text-align: center;
+    vertical-align: top;
+    color: #e7e7e7;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+	background:transparent;
+}
+i[class^='fa'] {
+    line-height: 1.5;
+    color: #e7e7e7;
+}
+.input-wrapper {
+    margin-bottom: 13px;
+}
+::-webkit-input-placeholder {
+    color: #e7e7e7;
+}
+::-moz-placeholder {
+    color: #e7e7e7;
+}
+:-moz-placeholder {
+    color: #e7e7e7;
+}
+:-ms-input-placeholder {
+    color: #e7e7e7;
+}
+
+span {
+    color: #85868b;
+}
+
+input[type='submit'] {
+    font-weight: 600;
+    width: 100%;
+    margin-top: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border-style: none;
+    border-radius: 3px;
+    background-color: #ea4c88;
+    text-shadow: #be3e6e 0 1px;
+}
+
+p {
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<form autocomplete="off">
+		<div class="input-wrapper">
+			<h1>Welcome</h1>
+			<label for="username"><i class="fa fa-user fa-2x"></i></label><input type="text" id="username" placeholder="Username" spellcheck="false">
+		</div>
+		<div class="input-wrapper">
+			<label for="password"><i class="fa fa-lock fa-2x"></i></label><input type="password" id="password" placeholder="Password">
+		</div>
+		<div class="input-wrapper">
+			<input type="submit" value="Sign In">
+			<p>
+				Not a member? <a href="#"> Sign up now</a> <span>&rarr;</span>
+			</p>
+		</div>
+	</form>
+</div>
+</body>
+</html>
